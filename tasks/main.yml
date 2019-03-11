@@ -1,0 +1,15 @@
+---
+# tasks file for snap
+
+- name: Install snap
+  package:
+    name: snapd
+    state: present
+
+- name: Create classic snap compatibility symlink
+  file:
+    src: /var/lib/snapd/snap
+    dest: /snap
+    owner: root
+    group: root
+    state: link
