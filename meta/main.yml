@@ -50,4 +50,4 @@ galaxy_info:
     - snapd
     - snapcore
 
-dependencies: []
+  dependencies: []
