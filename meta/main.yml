@@ -1,16 +1,12 @@
+
+dependencies: []
+
 galaxy_info:
-  author: @westurner
+  author: '@westurner'
   description: Install snapd and configure snap classic compatibility symlink
-  company:
-
-  # If the issue tracker for your role is not on github, uncomment the
-  # next line and provide a value
-  # issue_tracker_url: http://example.com/issue/tracker
-
+  company: ''
   license: GPLv3
-
   min_ansible_version: 2.4
-
   # If this a Container Enabled role, provide the minimum Ansible Container version.
   # min_ansible_container_version:
 
@@ -22,32 +18,19 @@ galaxy_info:
   # (usually master) will be used.
   #github_branch:
 
-  #
-  # Provide a list of supported platforms, and for each platform a list of versions.
-  # If you don't wish to enumerate all versions for a particular platform, use 'all'.
-  # To view available platforms and versions (or releases), visit:
-  # https://galaxy.ansible.com/api/v1/platforms/
-  #
   platforms:
-  - name: Fedora
-    versions:
-    - 27
-    - 28
-    - 29
+    - name: Fedora
+      versions:
+        - 27
+        - 28
+        - 29
   # Probably: CentOS w/ EPEL
   #   sudo yum copr enable ngompa/snapcore-el7
   #   sudo systemctl enable --now snapd.socket
   # Probably: Ubuntu, Debian, 
-  # - name: SomePlatform
-  #   versions:
-  #   - all
-  #   - 1.0
-  #   - 7
-  #   - 99.99
 
   galaxy_tags:
     - snap
     - snapd
     - snapcore
 
-  dependencies: []
